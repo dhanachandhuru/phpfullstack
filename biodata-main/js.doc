@@ -1,0 +1,14 @@
+<P id="javascript">my first javascript</P> 
+    <button type="button" onclick="document.getElementById('about').style.fontsize='35px'">CLICK</button>
+<script>
+    let x=25;
+    let y=55;
+    var m=44;
+    var n=99;
+    document.write(x+"<br>");
+    document.writeln(x+y);
+    document.write("hello javascript");
+    window.alert(12);
+    window.alert("hello all");
+    console.log(45);
+   </script> 

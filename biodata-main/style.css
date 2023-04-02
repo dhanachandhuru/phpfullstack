@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    display: flex;
+    background-color: antiquewhite;
+    
+}
+.flex1{
+    padding: 12px;
+    font-size: 10px;
+    padding-right: 12px;
+    padding-left: 10px;
+}
+.flex2{
+    padding: 12px;
+    padding-right: 12px;
+    font-size: 10px;
+    
+}
+.flex3{
+    padding: 12px;
+    padding-right: 12px;
+    font-size: 10px;
+    padding-right: 550px;
+}
+.flex4{
+    border-width: 50px;
+    padding: 15px;
+}
+.container1{
+    height: 750px;
+    box-shadow:0px 0px 4px 2px gray;
+    background-image:url(th\ \(1\).jpeg);
+}
+.quorts{
+    text-align: center;
+    padding-top: 200px;
+}
+.quorts1{
+    text-align: center;
+    padding-top: 1px;
+}
+.about{
+    padding-left: 150px;
+}
+.h{
+    padding-right: 70px;
+}
+#about{
+    color: skyblue;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container2{
+    order: 2;
+    width: 1335px;
+    height: 650px;
+    box-shadow:0px 0px 4px 2px white;
+}
+.contact{
+    padding-left: 50px;
+}
+.submit{
+    padding-left: 250px;
+    padding-bottom: 20px;
+}
+#contact{
+    color: skyblue;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer{
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    background-color:cadetblue;
+    text-align: center;
+}
+#skill{
+    color: skyblue;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+.skills{
+    padding-left: 150px;
+    font-size: 30px;
+}
+.progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.skillss {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 500px;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+.progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+    width: 700px;
+}
+.progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+}
+
+.box{
+    padding: 10px;
+    padding-left: 150px;
+}
+.contact3{
+    padding: 15px;
+    width: 1335px;
+    height: 650px;
+    box-shadow:0px 0px 4px 2px white;
+}

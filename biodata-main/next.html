@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".h3").click(function(){
+                $("h1").toggle(1000,function(){
+                   
+                });
+            });
+            $(".h2").click(function(){
+                $("h1").show();
+            });
+            $(".h4").click(function(){
+                $("h1").slideToggle(1000);
+            });
+            $(".h5").click(function(){
+                $("#div1").fadeTo({opacity:'0.4'});
+                $("#div2").fadeIn("slow");
+                $("#div3").fadeIn(3000);
+            });
+            $(".op").click(function(){
+                $("div").animate({height: '300px', opacity: '0.4'}, "slow");
+                $("div").animate({width: '300px', opacity: '0.8'}, "slow");
+                $("div").animate({height: '100px', opacity: '0.4'}, "slow");
+                $("div").animate({width: '100px', opacity: '0.8'}, "slow");
+                $("div").animate({height: '300px', opacity: '0.4'}, "slow");
+                $("div").animate({width: '300px', opacity: '0.8'}, "slow");
+                $("div").animate({height: '100px', opacity: '0.4'}, "slow");
+                $("div").animate({width: '100px', opacity: '0.8'}, "slow");
+            });
+            $(".h6").click(function(){
+                $("#animate").animate({left: '958px',width:'400px',height:'300px' });
+            });
+            $(".h7").click(function(){
+                $("#animate").animate({left: '',width:'400px',height:'300px' });
+            });
+            $(".h6").click(function(){
+                $("h2").addClass("hill1");
+                $("h3").addClass("hill2");
+                $("h4").addClass("hill3");
+
+            });
+        });
+    </script>
+    <style>
+        img{
+            position: relative;
+            width: 100px;
+            height: 50px;
+        }
+        .hill1{
+            color: red;
+        }
+        .hill2{
+            color: green;
+        }
+        .hill3{
+            color: yellow;
+        }
+    </style>
+    <title>jquary</title>
+</head>
+<body>
+    <h1 style="display:none; ">WELCOME TO JQUARY</h1>
+    <button class="h2">show</button>
+    <button class="h3">hide</button>
+    <button class="h4">slide</button>
+    <button class="h5">fadeIn</button>
+    <button class="h6">animate</button>
+    <button class="h7">animates</button>
+    <button class="h8">animatess</button>
+
+    <button class="op">Start Animation</button>
+    <div style="background:#98bf21;height:100px;width:100px;"></div>
+
+    <div id="div1" style="width:80px;height:80px;background-color:red; display: none;"></div><br>
+    <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+    <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+    <img id="animate" src="th (1).jpeg" width="100" height="50">
+    <h2>hello every one</h2>
+    <h3>hello every</h3>
+    <h4>hello</h4>
+    
+</body>
+</html>
